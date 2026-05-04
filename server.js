@@ -3,6 +3,8 @@ const cors = require('cors');
 const mysql = require('mysql2');
 const uuid = require('uuid')
 
+//create database conn...
+
 const conn = mysql.createConnection({
     host:"localhost",
     user:"root",
